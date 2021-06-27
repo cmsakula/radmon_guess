@@ -13,8 +13,7 @@ number_of_guess = 0
 
 while True :
 	number_of_guess = number_of_guess + 1
-	my_guess = input('Guess the number? ')
-	my_guess = int(my_guess)
+	my_guess = int(input('Guess the number? '))
 	if r == my_guess :
 		break
 	elif r < my_guess :
